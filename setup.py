@@ -45,8 +45,8 @@ except:
 setup(
     name='QInfer',
     version=VERSION,
-    url='https://github.com/QInfer/python-qinfer',
-    download_url='https://github.com/QInfer/python-qinfer/archive/v1.0b1.tar.gz',
+    url='https://github.com/PengDauan/python-qinfer',
+    download_url='https://github.com/PengDauan/python-qinfer/archive/master.zip',
     author='Chris Granade and Chris Ferrie',
     author_email='cgranade@cgranade.com',
     maintainer='Chris Granade and Chris Ferrie',
