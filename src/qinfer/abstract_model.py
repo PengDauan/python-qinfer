@@ -649,7 +649,7 @@ class FiniteOutcomeModel(Model):
             dtype = self.domain(expparams[0, np.newaxis])[0].dtype
             outcomes = np.empty((repeat, modelparams.shape[0], expparams.shape[0]), dtype=dtype)
             for idx_experiment, single_expparams in enumerate(expparams[:, np.newaxis]):
-                all_outcomes = self.domain(single_expparams).values
+                all_outcomes = self.domain(single_expparams)[idx_experiment].values
                 probabilities = self.likelihood(all_outcomes, modelparams, single_expparams)
                 cdf = np.cumsum(probabilities, axis=0)[..., 0]
                 randnum = np.random.random((repeat, 1, modelparams.shape[0]))
