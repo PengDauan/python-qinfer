@@ -46,7 +46,7 @@ setup(
     name='QInfer',
     version=VERSION,
     url='https://github.com/PengDauan/python-qinfer',
-    download_url='https://github.com/PengDauan/python-qinfer/archive/master.zip',
+    download_url='https://github.com/PengDauan/python-qinfer/archive/V1.1.tar.gz',
     author='Chris Granade and Chris Ferrie',
     author_email='cgranade@cgranade.com',
     maintainer='Chris Granade and Chris Ferrie',
